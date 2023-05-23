@@ -1,0 +1,50 @@
+# Site settings
+title: Guige Blog
+email: i@guige.org
+description: > # this means to ignore newlines until "baseurl:"
+  Guige Blog
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: http://blog.guige.info # the base hostname & protocol for your site
+rss_url: 
+author: GuiGe
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'category'
+recent_num: 20
+
+# Social account
+twitter: 
+weibo: 
+github: loskevin
+instagram: 
+linkedin: 
+
+# avatar and Favicon
+avatar: https://blog.guige.info/assets/img/site-avatar.png
+favicon: https://blog.guige.info/assets/img/site-favicon.ico
+
+# disqus config
+disqus:
+  shortname: GuiGe
+
+# google analytics config
+ga:
+  id: UA-54767140-1
+  url: blog.guige.info
+
+# Build settings
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+highlighter: rouge
+mathjax: disabled
+sass:
+  style: compressed
+
+# Jekyll Plugin
+# https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
