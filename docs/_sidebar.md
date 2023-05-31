@@ -1,5 +1,5 @@
-* 3D打印机配置
-    * [KlipperScreen更换中文](md/KlipperScreen.md)
-    * [上位机配置](md/上位机配置.md)
-    * [使用can快速更新设备固件](md/can.md)
+* 测试大全
+    * [我是测试1](md/KlipperScreen.md)
+    * [我是测试2](md/上位机配置.md)
+    * [我是测试3](md/can.md)
     
